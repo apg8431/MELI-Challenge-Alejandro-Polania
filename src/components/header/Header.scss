@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.header-container {
+    text-align: center;
+}
+
+.header{
+    
+    height: 80px;
+    padding: 20px;
+    background-color: $meli-accent-1;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.placeholder {
+    width: 80%;
+    display: inline-block;
+}

@@ -1,0 +1,29 @@
+@import 'src/styles/_variables.scss';
+
+.custom-search {
+
+
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+    &--input-field {
+     width: 90%;
+     font-size: 0.82rem;
+     padding-left: 1rem;
+     line-height: 2.1;
+     border: 1px solid #d1d1d1;
+     box-shadow: inset 1px 1px 1px rgb(0 0 0 / 8%);
+     outline:none;
+    }
+
+    &--decorator-img {
+        padding: 7px;
+        border:1px solid #d1d1d1;
+        height: 31.6px;
+        background-color: lightgray;
+        position:absolute;
+        
+    }
+
+}
